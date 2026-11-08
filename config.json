@@ -14,5 +14,9 @@
     "url": "https://mozesor.github.io/hapoel-pt-tzafon/",
     "icsId": "hapoel-pt-tzafon"
   },
-  "cupLeagueId": 1304
+  "cupLeagueId": 1304,
+  "push": {
+    "server": "https://hapoel-pt-push.mozesor.workers.dev",
+    "vapidPublicKey": "BFRAusDB8GqBYWUgMsuU3PtjLHXK8y_c-XoIC3Bi0-cRdpQ7p579HwIqrlbCVnxKZ_g_tFp8HSF1VdtrDn9EuSg"
+  }
 }
