@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hapoel-pt-tzafon//he
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:הפועל פ״ת צפון
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:6acc334f9878872a963a060b@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל הרצליה עי
+ רוני (חוץ) | מועד משוער
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+DESCRIPTION:מחזור 14\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,277 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hapoel-pt-tzafon//he
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:הפועל פ״ת צפון | משחקים
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:6ab9c8e2068ef07a1cafbbe4@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:🏆 גביע: הפועל פ״ת צפון נגד מכבי יהוד 
+ מונוסון 2 15:0 (בית)
+DTSTART:20261010T100000Z
+DTEND:20261010T113000Z
+DESCRIPTION:גביע\, סיבוב א
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334e9878872a963a04da@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד מכבי ע. כפר יונה 
+ 5:1 (בית)
+DTSTART:20261017T170000Z
+DTEND:20261017T183000Z
+LOCATION:פתח תקוה סירקין אימונים 2 (סינטטי)
+DESCRIPTION:מחזור 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6ad56e485239c8925a114d10@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:🏆 גביע: הפועל פ״ת צפון נגד הפועל כפר 
+ שלם 15:14 (בית)
+DTSTART:20261024T053000Z
+DTEND:20261024T070000Z
+DESCRIPTION:גביע\, סיבוב ב
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334e9878872a963a0506@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד מכבי עמק חפר 2:1 (
+ בית)
+DTSTART:20261031T063000Z
+DTEND:20261031T080000Z
+LOCATION:פתח תקוה מושבה דרומי
+DESCRIPTION:מחזור 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6ae2ab78e10656c9d244d22f@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:🏆 גביע: הפועל פ״ת צפון נגד הפועל אשכ
+ ול (בית)
+DTSTART:20261110T143000Z
+DTEND:20261110T160000Z
+DESCRIPTION:גביע\, סיבוב ג
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:משחק בעוד שעתיים
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334e9878872a963a051b@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד מכבי עתלית (חוץ) 
+ | מועד משוער
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+DESCRIPTION:מחזור 4\nמועד משוער: השעה טרם פורסמה
+  והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334e9878872a963a04eb@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל טירת כרמל 
+ (חוץ)
+DTSTART:20261115T123000Z
+DTEND:20261115T140000Z
+LOCATION:עתלית
+DESCRIPTION:מחזור 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:משחק בעוד שעתיים
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334e9878872a963a0532@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד מכבי הרצליה (בית
+ ) | מועד משוער
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+DESCRIPTION:מחזור 5\nמועד משוער: השעה טרם פורסמה
+  והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a054b@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל הוד השרון 
+ (חוץ) | מועד משוער
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+DESCRIPTION:מחזור 6\nמועד משוער: השעה טרם פורסמה
+  והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a055e@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל חדרה (בית) 
+ | מועד משוער
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+DESCRIPTION:מחזור 7\nמועד משוער: השעה טרם פורסמה
+  והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a057b@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד נהלל יזרעאל (חוץ
+ ) | מועד משוער
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+DESCRIPTION:מחזור 8\nמועד משוער: השעה טרם פורסמה
+  והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a058a@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל כפס מערב (
+ בית) | מועד משוער
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+DESCRIPTION:מחזור 9\nמועד משוער: השעה טרם פורסמה
+  והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a05ab@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד מכבי תא לייבו (ח
+ וץ) | מועד משוער
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+DESCRIPTION:מחזור 10\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a05b6@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד פרו סוקר השרון (
+ בית) | מועד משוער
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+DESCRIPTION:מחזור 11\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a05db@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד מכבי חיפה גולדש
+ נפלד (חוץ) | מועד משוער
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DESCRIPTION:מחזור 12\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a05e2@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל תא צפון (ב
+ ית) | מועד משוער
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DESCRIPTION:מחזור 13\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a060b@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל הרצליה עי
+ רוני (חוץ) | מועד משוער
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+DESCRIPTION:מחזור 14\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a060e@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד מכבי ע. קרית אתא 
+ (בית) | מועד משוער
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DESCRIPTION:מחזור 15\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a0639@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל חוף הכרמל 
+ / ממ (בית) | מועד משוער
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+DESCRIPTION:מחזור 16\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a063d@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד ביתר טוברוק (חוץ
+ ) | מועד משוער
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+DESCRIPTION:מחזור 17\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a0666@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד קרית ים (בית) | מו
+ עד משוער
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+DESCRIPTION:מחזור 18\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc334f9878872a963a066c@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד נוה יוסף (חוץ) | מ
+ ועד משוער
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+DESCRIPTION:מחזור 19\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc33509878872a963a0693@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד עמק חפר דרום (בי
+ ת) | מועד משוער
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+DESCRIPTION:מחזור 20\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc33509878872a963a069c@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל חיפה 1 (חוץ
+ ) | מועד משוער
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+DESCRIPTION:מחזור 21\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc33509878872a963a06bf@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד בית׳׳ר חיפה יעק
+ ב 2 (בית) | מועד משוער
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+DESCRIPTION:מחזור 22\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+BEGIN:VEVENT
+UID:6acc33509878872a963a06cc@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל עליה כפס (
+ חוץ) | מועד משוער
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+DESCRIPTION:מחזור 23\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+END:VCALENDAR

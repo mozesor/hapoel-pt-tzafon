@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hapoel-pt-tzafon//he
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:הפועל פ״ת צפון
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:6acc334f9878872a963a05db@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד מכבי חיפה גולדש
+ נפלד (חוץ) | מועד משוער
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DESCRIPTION:מחזור 12\nמועד משוער: השעה טרם פורסמ
+ ה והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+END:VCALENDAR

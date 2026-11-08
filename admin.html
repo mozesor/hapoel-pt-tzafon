@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<meta name="robots" content="noindex" />
+<title>ניהול | הפועל פ״ת צפון</title>
+<link rel="icon" href="icons/favicon-32.png?v=2" sizes="32x32" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --bg:#EEF2F8;--surface:#FAFBFE;--surface-2:#EEF2F8;--line:rgba(15,27,45,.12);--line-strong:rgba(15,27,45,.35);
+  --text:#0F1B2D;--text-2:#55627A;--text-3:#8a94a8;--accent:#1E56C8;--accent-ink:#FAFBFE;--accent-soft:rgba(30,86,200,.15);
+  --loss:#C62828;--loss-soft:rgba(198,40,40,.12);--r:0;--r-s:0;--ease:cubic-bezier(.23,1,.32,1);color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0B1220;--surface:#141E30;--surface-2:#0B1220;--line:rgba(243,246,251,.12);--line-strong:rgba(243,246,251,.35);
+  --text:#F3F6FB;--text-2:#A3AFC4;--text-3:#6f7b8e;--accent:#5B9BFF;--accent-ink:#0B1220;--accent-soft:rgba(91,155,255,.18);
+  --loss:#E8453C;--loss-soft:rgba(232,69,60,.14);color-scheme:dark;}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Rubik","Noto Sans Hebrew",system-ui,sans-serif;font-size:16px;line-height:1.5;min-height:100dvh}
+.app{max-width:680px;margin:0 auto;padding:16px 16px calc(40px + env(safe-area-inset-bottom))}
+h1{font-family:"Karantina","Arial Narrow",sans-serif;font-size:40px;line-height:1;margin:6px 0 2px;font-weight:700}
+h2{font-family:"Karantina","Arial Narrow",sans-serif;font-size:26px;line-height:1;margin:0 0 10px;font-weight:700;border-bottom:2px solid var(--text);padding-bottom:4px}
+.sub{color:var(--text-2);font-size:13.5px;margin:0 0 16px}
+.card{background:var(--surface);border:2px solid var(--text);border-radius:var(--r);padding:16px;margin-bottom:14px}
+label{display:block;font-size:13px;font-weight:700;color:var(--text-2);margin:10px 0 4px}
+label:first-child{margin-top:0}
+input,textarea{width:100%;font:inherit;font-size:16px;color:var(--text);background:var(--surface-2);border:1px solid var(--line-strong);border-radius:var(--r-s);padding:10px 12px;outline:0}
+input:focus,textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+textarea{min-height:64px;resize:vertical}
+.help{font-size:12.5px;color:var(--text-3);margin-top:4px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.btn{font:inherit;font-weight:600;font-size:15px;height:44px;padding:0 16px;border-radius:0;border:2px solid var(--text);background:var(--surface-2);color:var(--text);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;transition:transform .15s var(--ease)}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.btn:disabled{opacity:.5;cursor:default}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.game{border-top:1px solid var(--line);padding:14px 0 4px;margin-top:10px}
+.game:first-of-type{border-top:0;margin-top:0;padding-top:0}
+.game .t{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.game .t b{font-size:15px}
+.game .t span{font-size:12.5px;color:var(--text-2)}
+.chip{display:inline-block;padding:2px 9px;border-radius:0;font-size:11.5px;font-weight:700;background:var(--accent-soft);color:var(--accent);margin-inline-start:6px}
+.chip.away{background:var(--surface-2);color:var(--text-2)}
+.chip.done{background:var(--surface-2);color:var(--text-3)}
+.toast{position:fixed;bottom:calc(18px + env(safe-area-inset-bottom));inset-inline:16px;max-width:640px;margin:0 auto;padding:12px 16px;border-radius:0;background:var(--text);color:var(--bg);font-weight:600;font-size:14px;transform:translateY(120%);opacity:0;transition:all .35s var(--ease);z-index:9}
+.toast.on{transform:none;opacity:1}
+.toast.err{background:var(--loss);color:#fff}
+.savebar{position:sticky;bottom:calc(12px + env(safe-area-inset-bottom));display:flex;gap:8px;padding:10px;background:var(--surface);border:2px solid var(--text);box-shadow:4px 4px 0 var(--accent);margin-top:16px}
+.savebar .btn{flex:1}
+.hidden{display:none}
+.status{font-size:13px;color:var(--text-2)}
+details summary{cursor:pointer;font-weight:700;font-size:14px;color:var(--text-2)}
+code{background:var(--surface-2);padding:1px 6px;border-radius:6px;font-size:13px}
+.steps{margin:0 0 12px;padding-inline-start:22px;font-size:14.5px;line-height:1.6}
+.steps li{margin-bottom:4px}
+a.btn{text-decoration:none}
+</style>
+</head>
+<body>
+<div class="app">
+  <h1>ניהול לוח המשחקים</h1>
+  <p class="sub">כאן ממלאים את מה שההתאחדות לא מפרסמת: שעת שריקה, מגרש, ניווט והערות להורים. השמירה נכנסת לאתר תוך כדקה.</p>
+
+  <div class="card" id="usage">
+    <h2>כניסות לאתר</h2>
+    <div class="status" id="usageBody">טוען…</div>
+  </div>
+
+  <div class="card" id="setup">
+    <h2>חיבור ל-GitHub</h2>
+    <ol class="steps">
+      <li>לוחצים על הכפתור הכחול. נפתח דף ב-GitHub (אם צריך, מתחברים לחשבון <bdi dir="ltr">mozesor</bdi>).</li>
+      <li>תחת <bdi dir="ltr"><b>Repository access</b></bdi> בוחרים <bdi dir="ltr"><b>Only select repositories</b></bdi> ואז <bdi dir="ltr"><b>hapoel-pt-tzafon</b></bdi>.</li>
+      <li>מוודאים שתחת <bdi dir="ltr"><b>Permissions</b></bdi> מופיע <bdi dir="ltr"><b>Contents</b></bdi> ו-<bdi dir="ltr"><b>Actions</b></bdi> עם <bdi dir="ltr"><b>Read and write</b></bdi>.</li>
+      <li>למטה לוחצים <bdi dir="ltr"><b>Generate token</b></bdi>, ומעתיקים את הקוד שמתחיל ב-<bdi dir="ltr">github_pat_</bdi>.</li>
+      <li>חוזרים לכאן, מדביקים בשדה הטוקן ולוחצים "התחברות וטעינה".</li>
+    </ol>
+    <a class="btn primary" style="width:100%;margin:4px 0 14px" href="https://github.com/settings/personal-access-tokens/new?name=hapoel-pt-admin&amp;description=%D7%A0%D7%99%D7%94%D7%95%D7%9C%20%D7%9C%D7%95%D7%97%20%D7%94%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%9D&amp;target_name=mozesor&amp;expires_in=366&amp;contents=write&amp;actions=write" target="_blank" rel="noopener">יצירת טוקן ב-GitHub</a>
+    <label for="token">טוקן גישה אישי</label>
+    <input id="token" type="password" placeholder="github_pat_..." autocomplete="off" />
+    <div class="help">מטעמי אבטחה הטוקן נשמר רק עד שסוגרים את הלשונית, ובכל כניסה מדביקים אותו מחדש. כדאי לשמור אותו במנהל הסיסמאות של הטלפון או המחשב.</div>
+    <details style="margin-top:12px"><summary>הגדרות מתקדמות</summary>
+      <label for="repo">מאגר (owner/repo)</label>
+      <input id="repo" placeholder="mozesor/hapoel-pt-tzafon" autocomplete="off" />
+      <label for="branch">ענף</label>
+      <input id="branch" value="main" autocomplete="off" />
+    </details>
+    <div class="actions"><button class="btn primary" id="connect">התחברות וטעינה</button><button class="btn" id="forget">התנתקות</button></div>
+    <div class="status" id="setupStatus" style="margin-top:10px"></div>
+  </div>
+
+  <div id="editor" class="hidden">
+    <div class="card">
+      <h2>שם הקבוצה באתר</h2>
+      <div class="row">
+        <div><label for="displayName">שם מלא</label><input id="displayName" /></div>
+        <div><label for="shortName">אות לסמל</label><input id="shortName" maxlength="2" /></div>
+      </div>
+      <label for="siteTitle">כותרת האתר (בלשונית ובמסך הבית)</label>
+      <input id="siteTitle" />
+    </div>
+
+    <div class="card">
+      <h2>מגרש הבית (ברירת מחדל לכל משחקי הבית)</h2>
+      <label for="homeVenue">שם המגרש</label><input id="homeVenue" placeholder="לדוגמה: מגרש קצרין" />
+      <label for="homeWaze">קישור ניווט (Waze או Google Maps)</label><input id="homeWaze" inputmode="url" placeholder="https://waze.com/ul?q=..." />
+      <label for="homeNote">הערה קבועה למשחקי בית</label><input id="homeNote" placeholder="להגיע 30 דקות לפני" />
+    </div>
+
+    <div class="card">
+      <h2>המשחקים שלנו</h2>
+      <p class="sub" style="margin-bottom:4px">שדה ריק = לא לשנות. שעה בפורמט 10:30.</p>
+      <div id="games"></div>
+    </div>
+
+    <div class="card">
+      <details>
+        <summary>כלים</summary>
+        <div class="actions">
+          <button class="btn" id="runFetch">למשוך תוצאות עכשיו מ-ONE</button>
+          <a class="btn" id="openSite" href="./" target="_blank" rel="noopener">לפתוח את האתר</a>
+        </div>
+        <div class="help" style="margin-top:8px">העדכון האוטומטי רץ כל 30 דקות בכל מקרה.</div>
+      </details>
+    </div>
+
+    <div class="savebar">
+      <button class="btn primary" id="save">שמירה לאתר</button>
+      <button class="btn" id="reload">טעינה מחדש</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(() => {
+"use strict";
+const $=(s)=>document.querySelector(s);
+const TZ="Asia/Jerusalem";
+const LS={repo:"hp-admin-repo",branch:"hp-admin-branch",token:"hp-admin-token"};
+let DATA=null, CFG=null, OVR=null, SHA={};
+let MATCH="", EXCL="";
+const nameIsMe=n=>!!n&&n.includes(MATCH)&&!(EXCL&&n.includes(EXCL));
+
+const toastEl=$("#toast"); let toastT;
+function toast(msg,err){ toastEl.textContent=msg; toastEl.classList.toggle("err",!!err); toastEl.classList.add("on"); clearTimeout(toastT); toastT=setTimeout(()=>toastEl.classList.remove("on"),3200); }
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const heDate=(d,o)=>new Intl.DateTimeFormat("he-IL",{timeZone:TZ,...o}).format(d);
+function apiTime(iso){ const f=new Intl.DateTimeFormat("en-GB",{timeZone:TZ,hour12:false,hour:"2-digit",minute:"2-digit"}).format(new Date(iso)); return (f==="00:00"||f==="01:00")?"":f; }
+
+try{ localStorage.removeItem(LS.token); }catch{}
+try{ $("#repo").value=(localStorage.getItem(LS.repo)||"mozesor/hapoel-pt-tzafon"); $("#branch").value=localStorage.getItem(LS.branch)||"main"; $("#token").value=sessionStorage.getItem(LS.token)||""; }catch{}
+
+function gh(){ return {repo:$("#repo").value.trim(), branch:$("#branch").value.trim()||"main", token:$("#token").value.trim()}; }
+async function ghGet(path){
+  const {repo,branch,token}=gh();
+  const r=await fetch(`https://api.github.com/repos/${repo}/contents/${path}?ref=${encodeURIComponent(branch)}`,{headers:{authorization:"Bearer "+token,accept:"application/vnd.github+json"},cache:"no-store"});
+  if(r.status===404) return {json:null,sha:null};
+  if(!r.ok) throw new Error(`GitHub ${r.status} בקריאת ${path}`);
+  const j=await r.json();
+  const text=new TextDecoder().decode(Uint8Array.from(atob(j.content.replace(/\n/g,"")),c=>c.charCodeAt(0)));
+  return {json:JSON.parse(text),sha:j.sha};
+}
+async function ghPut(path,obj,message){
+  const {repo,branch,token}=gh();
+  const text=JSON.stringify(obj,null,2)+"\n";
+  const b64=btoa(String.fromCharCode(...new TextEncoder().encode(text)));
+  const body={message,content:b64,branch}; if(SHA[path]) body.sha=SHA[path];
+  const r=await fetch(`https://api.github.com/repos/${repo}/contents/${path}`,{method:"PUT",headers:{authorization:"Bearer "+token,accept:"application/vnd.github+json","content-type":"application/json"},body:JSON.stringify(body)});
+  if(!r.ok){ const t=await r.text(); throw new Error(`GitHub ${r.status} בשמירת ${path}: ${t.slice(0,120)}`); }
+  const j=await r.json(); SHA[path]=j.content.sha;
+}
+
+async function load(){
+  const {repo,token}=gh();
+  if(!repo||!token){ toast("צריך למלא מאגר וטוקן",true); return; }
+  $("#connect").disabled=true; $("#setupStatus").textContent="טוען...";
+  try{
+    const [d,c,o]=await Promise.all([ghGet("data.json"),ghGet("config.json"),ghGet("overrides.json")]);
+    if(!d.json||!c.json) throw new Error("לא נמצאו data.json או config.json במאגר");
+    DATA=d.json; CFG=c.json; OVR=o.json||{games:{},venues:{home:{}}}; SHA={"data.json":d.sha,"config.json":c.sha,"overrides.json":o.sha};
+    OVR.games=OVR.games||{}; OVR.venues=OVR.venues||{}; OVR.venues.home=OVR.venues.home||{};
+    delete OVR.games.EXAMPLE_GAME_ID;
+    try{ localStorage.setItem(LS.repo,repo); localStorage.setItem(LS.branch,gh().branch); sessionStorage.setItem(LS.token,token); }catch{}
+    MATCH=CFG.team.match; EXCL=CFG.team.exclude||"";
+    render();
+    $("#editor").classList.remove("hidden"); $("#setupStatus").textContent=`מחובר. ${DATA.games.length} משחקים בליגה.`;
+    toast("נטען בהצלחה");
+  }catch(e){ $("#setupStatus").textContent=""; toast(e.message,true); }
+  finally{ $("#connect").disabled=false; }
+}
+
+function render(){
+  $("#displayName").value=CFG.team.displayName||""; $("#shortName").value=CFG.team.short||""; $("#siteTitle").value=CFG.site?.title||"";
+  $("#homeVenue").value=OVR.venues.home.name||""; $("#homeWaze").value=OVR.venues.home.waze||""; $("#homeNote").value=OVR.venues.home.note||"";
+  const my=DATA.games.filter(g=>nameIsMe(g.home.name)||nameIsMe(g.away.name)).concat((DATA.cup?.games||[]).map(g=>({...g,cup:true}))).sort((a,b)=>a.date.localeCompare(b.date));
+  $("#games").innerHTML=my.map(g=>{
+    const home=nameIsMe(g.home.name); const opp=home?g.away.name:g.home.name; const ov=OVR.games[g.id]||{};
+    const done=g.home.goals!==null&&g.away.goals!==null;
+    const d=new Date(g.date);
+    return `<div class="game" data-id="${g.id}">
+      <div class="t"><b>${esc(opp)}<span class="chip ${home?"":"away"}">${home?"בית":"חוץ"}</span>${done?`<span class="chip done">${g.home.goals}:${g.away.goals}</span>`:""}</b><span>${esc(heDate(d,{weekday:"short",day:"numeric",month:"short"}))} · ${g.cup?"גביע, "+esc(g.roundName||""):"מחזור "+g.round}</span></div>
+      <div class="row">
+        <div><label>תאריך (אם זז)</label><input data-f="date" inputmode="numeric" placeholder="YYYY-MM-DD" value="${esc(ov.date||"")}" /></div>
+        <div><label>שעה</label><input data-f="time" inputmode="text" placeholder="${apiTime(g.date)||"לא פורסמה"}" value="${esc(ov.time||"")}" /></div>
+        <div><label>מגרש</label><input data-f="venue" placeholder="${home?esc(OVR.venues.home.name||"מגרש הבית"):"מגרש היריבה"}" value="${esc(ov.venue||"")}" /></div>
+      </div>
+      <label>קישור ניווט</label><input data-f="waze" inputmode="url" value="${esc(ov.waze||"")}" placeholder="https://..." />
+      <label>הערה להורים</label><input data-f="note" value="${esc(ov.note||"")}" placeholder="${home?esc(OVR.venues.home.note||""):""}" />
+    </div>`;
+  }).join("");
+}
+
+function collect(){
+  CFG.team.displayName=$("#displayName").value.trim()||CFG.team.displayName;
+  CFG.team.short=$("#shortName").value.trim()||CFG.team.short;
+  CFG.site=CFG.site||{}; CFG.site.title=$("#siteTitle").value.trim()||CFG.site.title;
+  const okUrl=(u,where)=>{ if(u&&!/^https:\/\/[^\s"<>]+$/i.test(u)) throw new Error("קישור ניווט חייב להתחיל ב-https:// ("+where+")"); return u; };
+  OVR.venues.home={name:$("#homeVenue").value.trim(),waze:okUrl($("#homeWaze").value.trim(),"מגרש הבית"),note:$("#homeNote").value.trim()};
+  const games={};
+  document.querySelectorAll("#games .game").forEach(el=>{
+    const o={}; el.querySelectorAll("[data-f]").forEach(i=>{ const v=i.value.trim(); if(v) o[i.dataset.f]=v; });
+    if(o.waze) okUrl(o.waze, el.querySelector(".t b")?.childNodes[0]?.textContent||"משחק");
+    if(o.date&&!/^\d{4}-\d{2}-\d{2}$/.test(o.date)) throw new Error("תאריך לא תקין: "+o.date+" (לדוגמה 2026-11-08)");
+    if(o.time){ const m=/^(\d{1,2}):(\d{2})$/.exec(o.time); if(!m||+m[1]>23||+m[2]>59) throw new Error("שעה לא תקינה: "+o.time+" (לדוגמה 10:30)"); o.time=`${m[1].padStart(2,"0")}:${m[2]}`; }
+    if(Object.keys(o).length) games[el.dataset.id]=o;
+  });
+  // keep overrides of games that are not on this screen (e.g. older seasons); replace only the rendered ones
+  const shown=new Set([...document.querySelectorAll("#games .game")].map(el=>el.dataset.id));
+  OVR.games=Object.fromEntries(Object.entries(OVR.games||{}).filter(([id])=>!shown.has(id)));
+  Object.assign(OVR.games,games);
+  OVR._help="מידע ידני שההתאחדות לא מפרסמת. נערך מתוך admin.html";
+}
+
+$("#connect").addEventListener("click",load);
+$("#reload").addEventListener("click",load);
+$("#forget").addEventListener("click",()=>{ try{localStorage.removeItem(LS.token); sessionStorage.removeItem(LS.token);}catch{} $("#token").value=""; toast("הטוקן נמחק מהדפדפן"); });
+$("#save").addEventListener("click",async()=>{
+  try{ collect(); }catch(e){ toast(e.message,true); return; }
+  $("#save").disabled=true; $("#save").textContent="שומר...";
+  try{
+    await ghPut("overrides.json",OVR,"עדכון פרטי משחקים מממשק הניהול");
+    await ghPut("config.json",CFG,"עדכון הגדרות אתר מממשק הניהול");
+    toast("נשמר. האתר יתעדכן תוך כדקה.");
+  }catch(e){ toast(e.message,true); }
+  finally{ $("#save").disabled=false; $("#save").textContent="שמירה לאתר"; }
+});
+$("#runFetch").addEventListener("click",async()=>{
+  const {repo,branch,token}=gh();
+  try{
+    const r=await fetch(`https://api.github.com/repos/${repo}/actions/workflows/update-data.yml/dispatches`,{method:"POST",headers:{authorization:"Bearer "+token,accept:"application/vnd.github+json","content-type":"application/json"},body:JSON.stringify({ref:branch})});
+    if(!r.ok) throw new Error("GitHub "+r.status+" (צריך הרשאת Actions בטוקן)");
+    toast("העדכון הופעל. תוך כ-2 דקות התוצאות באתר.");
+  }catch(e){ toast(e.message,true); }
+});
+if($("#repo").value && $("#token").value) load();
+})();
+
+/* usage card: public numbers from the push server, no token needed */
+(async()=>{
+  const el=document.getElementById("usageBody"); if(!el) return;
+  try{
+    const cfg=await (await fetch("config.json",{cache:"no-store"})).json();
+    const st=await (await fetch(cfg.push.server+"/stats",{cache:"no-store"})).json();
+    const he=d=>new Intl.DateTimeFormat("he-IL",{timeZone:"Asia/Jerusalem",weekday:"short",day:"numeric",month:"numeric"}).format(new Date(d+"T12:00:00Z"));
+    const rows=st.days.map((x,i)=>`<tr><td>${i===0?"היום":i===1?"אתמול":he(x.day)}</td><td>${x.devices}</td><td>${x.home}</td></tr>`).join("");
+    el.innerHTML=`<p style="margin:0 0 8px">ב-7 הימים האחרונים: <b>${st.week}</b> מכשירים שונים · <b>${st.subscribers}</b> עם התראות פעילות</p>
+      <table style="border-collapse:collapse;font-size:14px"><thead><tr><th style="text-align:right;padding:4px 10px 4px 0">יום</th><th style="text-align:right;padding:4px 10px 4px 0">מכשירים</th><th style="text-align:right;padding:4px 0">מתוכם ממסך הבית</th></tr></thead><tbody>${rows}</tbody></table>
+      <p class="muted" style="margin:8px 0 0;font-size:12px">ספירה אנונימית: כל מכשיר נספר פעם ביום, בלי שמות ובלי פרטים.</p>`;
+  }catch(e){ el.textContent="אין חיבור לשרת הסטטיסטיקה."; }
+})();
+</script>
+</body>
+</html>

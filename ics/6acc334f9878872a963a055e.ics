@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hapoel-pt-tzafon//he
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:הפועל פ״ת צפון
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:6acc334f9878872a963a055e@hapoel-pt-tzafon
+DTSTAMP:20260101T000000Z
+SUMMARY:⚽ הפועל פ״ת צפון נגד הפועל חדרה (בית) 
+ | מועד משוער
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+DESCRIPTION:מחזור 7\nמועד משוער: השעה טרם פורסמה
+  והיום עוד יכול לזוז. היומן יתעדכן לבד
+END:VEVENT
+END:VCALENDAR

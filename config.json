@@ -1,0 +1,18 @@
+{
+  "leagueId": 1286,
+  "leagueName": "ליגת ילדים ג׳ שרון",
+  "team": {
+    "displayName": "הפועל פ״ת צפון",
+    "match": "פתח תקווה צפון",
+    "short": "הפועל",
+    "exclude": ""
+  },
+  "site": {
+    "title": "הפועל פ״ת צפון | ילדים ג׳",
+    "whatsappFooter": "נשלח מלוח המשחקים של הקבוצה",
+    "repo": "mozesor/hapoel-pt-tzafon",
+    "url": "https://mozesor.github.io/hapoel-pt-tzafon/",
+    "icsId": "hapoel-pt-tzafon"
+  },
+  "cupLeagueId": 1304
+}
