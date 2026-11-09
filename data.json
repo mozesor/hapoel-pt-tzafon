@@ -5,7 +5,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 3
   },
-  "fetchedAt": "2026-11-09T02:57:02.631Z",
+  "fetchedAt": "2026-11-09T17:03:26.537Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -674,6 +674,29 @@
       }
     },
     {
+      "id": "6acc334e9878872a963a051b",
+      "date": "2026-11-13T12:30:00.000Z",
+      "round": 4,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adef20",
+        "pid": 3679,
+        "name": "מכבי עתלית צו פיוס",
+        "goals": null
+      },
+      "away": {
+        "id": "68d612211b7b720e58adee8d",
+        "pid": 6174,
+        "name": "הפ' פתח תקווה צפון",
+        "goals": null
+      },
+      "ifa": {
+        "date": "2026-11-14",
+        "time": null,
+        "venue": null
+      }
+    },
+    {
       "id": "6acc334e9878872a963a0511",
       "date": "2026-11-13T22:00:00.000Z",
       "round": 4,
@@ -746,47 +769,6 @@
       }
     },
     {
-      "id": "6acc334e9878872a963a051a",
-      "date": "2026-11-13T22:00:00.000Z",
-      "round": 4,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adef52",
-        "pid": 1107,
-        "name": "מכבי עמק חפר",
-        "goals": null
-      },
-      "away": {
-        "id": "68d612211b7b720e58adeecb",
-        "pid": 5500,
-        "name": "הפועל חוף הכרמל / ממ",
-        "goals": null
-      }
-    },
-    {
-      "id": "6acc334e9878872a963a051b",
-      "date": "2026-11-13T22:00:00.000Z",
-      "round": 4,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adef20",
-        "pid": 3679,
-        "name": "מכבי עתלית צו פיוס",
-        "goals": null
-      },
-      "away": {
-        "id": "68d612211b7b720e58adee8d",
-        "pid": 6174,
-        "name": "הפ' פתח תקווה צפון",
-        "goals": null
-      },
-      "ifa": {
-        "date": "2026-11-14",
-        "time": null,
-        "venue": null
-      }
-    },
-    {
       "id": "6acc334e9878872a963a051d",
       "date": "2026-11-13T22:00:00.000Z",
       "round": 4,
@@ -837,6 +819,24 @@
         "id": "68d612211b7b720e58adeead",
         "pid": 5167,
         "name": "הפועל תא צפון",
+        "goals": null
+      }
+    },
+    {
+      "id": "6acc334e9878872a963a051a",
+      "date": "2026-11-14T07:30:00.000Z",
+      "round": 4,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adef52",
+        "pid": 1107,
+        "name": "מכבי עמק חפר",
+        "goals": null
+      },
+      "away": {
+        "id": "68d612211b7b720e58adeecb",
+        "pid": 5500,
+        "name": "הפועל חוף הכרמל / ממ",
         "goals": null
       }
     },
