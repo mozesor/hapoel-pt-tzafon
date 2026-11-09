@@ -5,7 +5,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 3
   },
-  "fetchedAt": "2026-11-08T19:24:14.178Z",
+  "fetchedAt": "2026-11-09T02:57:02.631Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -656,6 +656,24 @@
       }
     },
     {
+      "id": "6acc334e9878872a963a0525",
+      "date": "2026-11-13T12:00:00.000Z",
+      "round": 4,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adeeff",
+        "pid": 7035,
+        "name": "הפועל כפס מערב צו פיוס",
+        "goals": null
+      },
+      "away": {
+        "id": "68d612211b7b720e58adeebd",
+        "pid": 1908,
+        "name": "מכבי תא לייבו",
+        "goals": null
+      }
+    },
+    {
       "id": "6acc334e9878872a963a0511",
       "date": "2026-11-13T22:00:00.000Z",
       "round": 4,
@@ -801,24 +819,6 @@
         "id": "68d612211b7b720e58adef49",
         "pid": 8555,
         "name": "פרו סוקר השרון",
-        "goals": null
-      }
-    },
-    {
-      "id": "6acc334e9878872a963a0525",
-      "date": "2026-11-13T22:00:00.000Z",
-      "round": 4,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adeeff",
-        "pid": 7035,
-        "name": "הפועל כפס מערב צו פיוס",
-        "goals": null
-      },
-      "away": {
-        "id": "68d612211b7b720e58adeebd",
-        "pid": 1908,
-        "name": "מכבי תא לייבו",
         "goals": null
       }
     },
