@@ -5,7 +5,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 3
   },
-  "fetchedAt": "2026-11-10T03:49:14.652Z",
+  "fetchedAt": "2026-11-10T12:31:48.509Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -656,6 +656,24 @@
       }
     },
     {
+      "id": "6acc334e9878872a963a0515",
+      "date": "2026-11-13T12:00:00.000Z",
+      "round": 4,
+      "finished": false,
+      "home": {
+        "id": "68e09ea81b7b720e58c00f04",
+        "pid": 5200,
+        "name": "הפועל עליה כפס צו פיוס",
+        "goals": null
+      },
+      "away": {
+        "id": "68e09ea61b7b720e58c00d4e",
+        "pid": 4213,
+        "name": "מ.כ. נוה יוסף",
+        "goals": null
+      }
+    },
+    {
       "id": "6acc334e9878872a963a0525",
       "date": "2026-11-13T12:00:00.000Z",
       "round": 4,
@@ -697,60 +715,6 @@
       }
     },
     {
-      "id": "6acc334e9878872a963a0511",
-      "date": "2026-11-13T22:00:00.000Z",
-      "round": 4,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adef47",
-        "pid": 7461,
-        "name": "מכבי ע. קרית אתא צו פיוס",
-        "goals": null
-      },
-      "away": {
-        "id": "68e09ea61b7b720e58c00d55",
-        "pid": 2336,
-        "name": "הפועל חיפה 1",
-        "goals": null
-      }
-    },
-    {
-      "id": "6acc334e9878872a963a0513",
-      "date": "2026-11-13T22:00:00.000Z",
-      "round": 4,
-      "finished": false,
-      "home": {
-        "id": "6ab9c8e2068ef07a1cafbc1d",
-        "pid": 8097,
-        "name": "בית''ר חיפה יעקב 2",
-        "goals": null
-      },
-      "away": {
-        "id": "68d612211b7b720e58adef76",
-        "pid": 3685,
-        "name": "מ.ס. עמק חפר דרום צו פיוס",
-        "goals": null
-      }
-    },
-    {
-      "id": "6acc334e9878872a963a0515",
-      "date": "2026-11-13T22:00:00.000Z",
-      "round": 4,
-      "finished": false,
-      "home": {
-        "id": "68e09ea81b7b720e58c00f04",
-        "pid": 5200,
-        "name": "הפועל עליה כפס צו פיוס",
-        "goals": null
-      },
-      "away": {
-        "id": "68e09ea61b7b720e58c00d4e",
-        "pid": 4213,
-        "name": "מ.כ. נוה יוסף",
-        "goals": null
-      }
-    },
-    {
       "id": "6acc334e9878872a963a0518",
       "date": "2026-11-13T22:00:00.000Z",
       "round": 4,
@@ -765,24 +729,6 @@
         "id": "68d612211b7b720e58adeea1",
         "pid": 3019,
         "name": "ביתר טוברוק",
-        "goals": null
-      }
-    },
-    {
-      "id": "6acc334e9878872a963a051d",
-      "date": "2026-11-13T22:00:00.000Z",
-      "round": 4,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adee6c",
-        "pid": 1264,
-        "name": "מכבי הרצליה",
-        "goals": null
-      },
-      "away": {
-        "id": "68d612211b7b720e58adef04",
-        "pid": 5745,
-        "name": "הפועל הרצליה עירוני צו פיוס",
         "goals": null
       }
     },
@@ -855,6 +801,24 @@
         "id": "68d612211b7b720e58adeebd",
         "pid": 1908,
         "name": "מכבי תא לייבו",
+        "goals": null
+      }
+    },
+    {
+      "id": "6acc334e9878872a963a0513",
+      "date": "2026-11-14T16:30:00.000Z",
+      "round": 4,
+      "finished": false,
+      "home": {
+        "id": "6ab9c8e2068ef07a1cafbc1d",
+        "pid": 8097,
+        "name": "בית''ר חיפה יעקב 2",
+        "goals": null
+      },
+      "away": {
+        "id": "68d612211b7b720e58adef76",
+        "pid": 3685,
+        "name": "מ.ס. עמק חפר דרום צו פיוס",
         "goals": null
       }
     },
@@ -1414,6 +1378,24 @@
       }
     },
     {
+      "id": "6acc334e9878872a963a0511",
+      "date": "2026-12-08T09:10:00.000Z",
+      "round": 4,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adef47",
+        "pid": 7461,
+        "name": "מכבי ע. קרית אתא צו פיוס",
+        "goals": null
+      },
+      "away": {
+        "id": "68e09ea61b7b720e58c00d55",
+        "pid": 2336,
+        "name": "הפועל חיפה 1",
+        "goals": null
+      }
+    },
+    {
       "id": "6acc334e9878872a963a04e9",
       "date": "2026-12-10T13:00:00.000Z",
       "round": 2,
@@ -1428,6 +1410,24 @@
         "id": "68d612211b7b720e58adeecb",
         "pid": 5500,
         "name": "הפועל חוף הכרמל / ממ",
+        "goals": null
+      }
+    },
+    {
+      "id": "6acc334e9878872a963a051d",
+      "date": "2026-12-10T15:00:00.000Z",
+      "round": 4,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adee6c",
+        "pid": 1264,
+        "name": "מכבי הרצליה",
+        "goals": null
+      },
+      "away": {
+        "id": "68d612211b7b720e58adef04",
+        "pid": 5745,
+        "name": "הפועל הרצליה עירוני צו פיוס",
         "goals": null
       }
     },
@@ -8835,7 +8835,7 @@
       },
       {
         "id": "6ae2ab78e10656c9d244d230",
-        "date": "2026-11-21T17:45:00.000Z",
+        "date": "2026-11-22T16:00:00.000Z",
         "round": 3,
         "roundName": "סיבוב ג",
         "home": {
