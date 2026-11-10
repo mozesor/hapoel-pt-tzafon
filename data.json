@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 3
   },
-  "fetchedAt": "2026-11-10T18:33:28.576Z",
+  "fetchedAt": "2026-11-10T20:48:29.174Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -8687,12 +8687,12 @@
         "home": {
           "pid": 2997,
           "name": "הפועל עפולה צו פיוס",
-          "goals": null
+          "goals": 1
         },
         "away": {
           "pid": 4213,
           "name": "מ.כ. נוה יוסף",
-          "goals": null
+          "goals": 4
         }
       },
       {
@@ -8719,12 +8719,12 @@
         "home": {
           "pid": 2310,
           "name": "הפ' ניר רמת השרון מרכז",
-          "goals": null
+          "goals": 3
         },
         "away": {
           "pid": 2895,
           "name": "הפ' רמות מנשה מגידו",
-          "goals": null
+          "goals": 2
         }
       },
       {
@@ -8735,12 +8735,12 @@
         "home": {
           "pid": 2902,
           "name": "הפ' מרמורק רחובות צו פיוס",
-          "goals": null
+          "goals": 4
         },
         "away": {
           "pid": 5500,
           "name": "הפועל חוף הכרמל / ממ",
-          "goals": null
+          "goals": 5
         }
       },
       {
