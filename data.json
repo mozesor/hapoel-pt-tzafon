@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 4
   },
-  "fetchedAt": "2026-11-13T13:48:29.537Z",
+  "fetchedAt": "2026-11-13T13:53:25.501Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -665,18 +665,18 @@
       "id": "6acc334e9878872a963a0515",
       "date": "2026-11-13T12:00:00.000Z",
       "round": 4,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68e09ea81b7b720e58c00f04",
         "pid": 5200,
         "name": "הפועל עליה כפס צו פיוס",
-        "goals": null
+        "goals": 3
       },
       "away": {
         "id": "68e09ea61b7b720e58c00d4e",
         "pid": 4213,
         "name": "מ.כ. נוה יוסף חיים בוטון",
-        "goals": null
+        "goals": 6
       }
     },
     {
