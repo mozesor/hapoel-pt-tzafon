@@ -1,17 +1,17 @@
 {
   "rankChange": {
-    "from": 7,
-    "to": 8,
-    "points": 6,
-    "round": 3,
-    "at": "2026-11-10T17:18:27.179Z"
+    "from": 8,
+    "to": 5,
+    "points": 9,
+    "round": 4,
+    "at": "2026-11-13T15:23:27.042Z"
   },
   "league": {
     "id": 1286,
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 4
   },
-  "fetchedAt": "2026-11-13T15:13:30.224Z",
+  "fetchedAt": "2026-11-13T15:23:27.042Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -719,18 +719,18 @@
       "id": "6acc334e9878872a963a051b",
       "date": "2026-11-13T12:30:00.000Z",
       "round": 4,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68d612211b7b720e58adef20",
         "pid": 3679,
         "name": "מכבי עתלית צו פיוס",
-        "goals": null
+        "goals": 0
       },
       "away": {
         "id": "68d612211b7b720e58adee8d",
         "pid": 6174,
         "name": "הפ' פתח תקווה צפון",
-        "goals": null
+        "goals": 3
       },
       "ifa": {
         "date": "2026-11-14",
@@ -5250,6 +5250,19 @@
     },
     {
       "rank": 5,
+      "id": "68d612211b7b720e58adee8d",
+      "name": "הפ' פתח תקווה צפון",
+      "games": 3,
+      "wins": 3,
+      "draws": 0,
+      "losses": 0,
+      "gf": 10,
+      "ga": 2,
+      "gd": 8,
+      "points": 9
+    },
+    {
+      "rank": 6,
       "id": "68d612211b7b720e58adeead",
       "name": "הפועל תא צפון",
       "games": 2,
@@ -5262,7 +5275,7 @@
       "points": 6
     },
     {
-      "rank": 6,
+      "rank": 7,
       "id": "68e09ea61b7b720e58c00d55",
       "name": "הפועל חיפה 1",
       "games": 3,
@@ -5275,7 +5288,7 @@
       "points": 6
     },
     {
-      "rank": 7,
+      "rank": 8,
       "id": "68d612211b7b720e58adeecb",
       "name": "הפועל חוף הכרמל / ממ",
       "games": 2,
@@ -5285,19 +5298,6 @@
       "gf": 7,
       "ga": 1,
       "gd": 6,
-      "points": 6
-    },
-    {
-      "rank": 8,
-      "id": "68d612211b7b720e58adee8d",
-      "name": "הפ' פתח תקווה צפון",
-      "games": 2,
-      "wins": 2,
-      "draws": 0,
-      "losses": 0,
-      "gf": 7,
-      "ga": 2,
-      "gd": 5,
       "points": 6
     },
     {
@@ -5499,13 +5499,13 @@
       "rank": 24,
       "id": "68d612211b7b720e58adef20",
       "name": "מכבי עתלית צו פיוס",
-      "games": 3,
+      "games": 4,
       "wins": 0,
       "draws": 0,
-      "losses": 3,
+      "losses": 4,
       "gf": 2,
-      "ga": 21,
-      "gd": -19,
+      "ga": 24,
+      "gd": -22,
       "points": 0
     }
   ],
