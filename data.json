@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 4
   },
-  "fetchedAt": "2026-11-13T13:53:25.501Z",
+  "fetchedAt": "2026-11-13T13:58:27.499Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -5211,6 +5211,19 @@
     },
     {
       "rank": 2,
+      "id": "68e09ea61b7b720e58c00d4e",
+      "name": "מ.כ. נוה יוסף חיים בוטון",
+      "games": 4,
+      "wins": 3,
+      "draws": 0,
+      "losses": 1,
+      "gf": 21,
+      "ga": 8,
+      "gd": 13,
+      "points": 9
+    },
+    {
+      "rank": 3,
       "id": "68d612211b7b720e58adeebd",
       "name": "מכבי תא לייבו",
       "games": 3,
@@ -5223,7 +5236,7 @@
       "points": 9
     },
     {
-      "rank": 3,
+      "rank": 4,
       "id": "68d612211b7b720e58adeea1",
       "name": "ביתר טוברוק",
       "games": 3,
@@ -5234,19 +5247,6 @@
       "ga": 4,
       "gd": 4,
       "points": 7
-    },
-    {
-      "rank": 4,
-      "id": "68e09ea61b7b720e58c00d4e",
-      "name": "מ.כ. נוה יוסף חיים בוטון",
-      "games": 3,
-      "wins": 2,
-      "draws": 0,
-      "losses": 1,
-      "gf": 15,
-      "ga": 5,
-      "gd": 10,
-      "points": 6
     },
     {
       "rank": 5,
@@ -5434,13 +5434,13 @@
       "rank": 19,
       "id": "68e09ea81b7b720e58c00f04",
       "name": "הפועל עליה כפס צו פיוס",
-      "games": 3,
+      "games": 4,
       "wins": 0,
       "draws": 1,
-      "losses": 2,
-      "gf": 3,
-      "ga": 9,
-      "gd": -6,
+      "losses": 3,
+      "gf": 6,
+      "ga": 15,
+      "gd": -9,
       "points": 1
     },
     {
