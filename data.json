@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 4
   },
-  "fetchedAt": "2026-11-13T15:08:25.463Z",
+  "fetchedAt": "2026-11-13T15:13:30.224Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -8855,13 +8855,14 @@
         "home": {
           "pid": 1179,
           "name": "מכבי קרית מלאכי צו פיוס",
-          "goals": null
+          "goals": 3
         },
         "away": {
           "pid": 2637,
           "name": "מכבי אחי איכסל",
-          "goals": null
-        }
+          "goals": 2
+        },
+        "unofficial": true
       },
       {
         "id": "6aea94a7b95b1a6147ba2235",
