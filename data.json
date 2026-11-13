@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 4
   },
-  "fetchedAt": "2026-11-12T19:35:28.371Z",
+  "fetchedAt": "2026-11-13T13:48:29.537Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -683,18 +683,18 @@
       "id": "6acc334e9878872a963a0525",
       "date": "2026-11-13T12:00:00.000Z",
       "round": 4,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68d612211b7b720e58adeeff",
         "pid": 7035,
         "name": "הפועל כפס מערב צו פיוס",
-        "goals": null
+        "goals": 2
       },
       "away": {
         "id": "68d612211b7b720e58adeebd",
         "pid": 1908,
         "name": "מכבי תא לייבו",
-        "goals": null
+        "goals": 3
       }
     },
     {
@@ -5211,6 +5211,19 @@
     },
     {
       "rank": 2,
+      "id": "68d612211b7b720e58adeebd",
+      "name": "מכבי תא לייבו",
+      "games": 3,
+      "wins": 3,
+      "draws": 0,
+      "losses": 0,
+      "gf": 14,
+      "ga": 5,
+      "gd": 9,
+      "points": 9
+    },
+    {
+      "rank": 3,
       "id": "68d612211b7b720e58adeea1",
       "name": "ביתר טוברוק",
       "games": 3,
@@ -5223,7 +5236,7 @@
       "points": 7
     },
     {
-      "rank": 3,
+      "rank": 4,
       "id": "68e09ea61b7b720e58c00d4e",
       "name": "מ.כ. נוה יוסף חיים בוטון",
       "games": 3,
@@ -5236,7 +5249,7 @@
       "points": 6
     },
     {
-      "rank": 4,
+      "rank": 5,
       "id": "68d612211b7b720e58adeead",
       "name": "הפועל תא צפון",
       "games": 2,
@@ -5249,7 +5262,7 @@
       "points": 6
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": "68e09ea61b7b720e58c00d55",
       "name": "הפועל חיפה 1",
       "games": 3,
@@ -5258,19 +5271,6 @@
       "losses": 1,
       "gf": 16,
       "ga": 8,
-      "gd": 8,
-      "points": 6
-    },
-    {
-      "rank": 6,
-      "id": "68d612211b7b720e58adeebd",
-      "name": "מכבי תא לייבו",
-      "games": 2,
-      "wins": 2,
-      "draws": 0,
-      "losses": 0,
-      "gf": 11,
-      "ga": 3,
       "gd": 8,
       "points": 6
     },
@@ -5317,13 +5317,13 @@
       "rank": 10,
       "id": "68d612211b7b720e58adeeff",
       "name": "הפועל כפס מערב צו פיוס",
-      "games": 3,
+      "games": 4,
       "wins": 1,
       "draws": 2,
-      "losses": 0,
-      "gf": 5,
-      "ga": 4,
-      "gd": 1,
+      "losses": 1,
+      "gf": 7,
+      "ga": 7,
+      "gd": 0,
       "points": 5
     },
     {
