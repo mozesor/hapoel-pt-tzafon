@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 4
   },
-  "fetchedAt": "2026-11-13T13:58:27.499Z",
+  "fetchedAt": "2026-11-13T15:08:25.463Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -701,18 +701,18 @@
       "id": "6acc334e9878872a963a0518",
       "date": "2026-11-13T12:15:00.000Z",
       "round": 4,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68d612211b7b720e58adef80",
         "pid": 7101,
         "name": "הפועל טירת כרמל צו פיוס",
-        "goals": null
+        "goals": 0
       },
       "away": {
         "id": "68d612211b7b720e58adeea1",
         "pid": 3019,
         "name": "ביתר טוברוק",
-        "goals": null
+        "goals": 3
       }
     },
     {
@@ -5198,6 +5198,19 @@
   "standings": [
     {
       "rank": 1,
+      "id": "68d612211b7b720e58adeea1",
+      "name": "ביתר טוברוק",
+      "games": 4,
+      "wins": 3,
+      "draws": 1,
+      "losses": 0,
+      "gf": 11,
+      "ga": 4,
+      "gd": 7,
+      "points": 10
+    },
+    {
+      "rank": 2,
       "id": "68d612211b7b720e58adef04",
       "name": "הפועל הרצליה עירוני צו פיוס",
       "games": 3,
@@ -5210,7 +5223,7 @@
       "points": 9
     },
     {
-      "rank": 2,
+      "rank": 3,
       "id": "68e09ea61b7b720e58c00d4e",
       "name": "מ.כ. נוה יוסף חיים בוטון",
       "games": 4,
@@ -5223,7 +5236,7 @@
       "points": 9
     },
     {
-      "rank": 3,
+      "rank": 4,
       "id": "68d612211b7b720e58adeebd",
       "name": "מכבי תא לייבו",
       "games": 3,
@@ -5234,19 +5247,6 @@
       "ga": 5,
       "gd": 9,
       "points": 9
-    },
-    {
-      "rank": 4,
-      "id": "68d612211b7b720e58adeea1",
-      "name": "ביתר טוברוק",
-      "games": 3,
-      "wins": 2,
-      "draws": 1,
-      "losses": 0,
-      "gf": 8,
-      "ga": 4,
-      "gd": 4,
-      "points": 7
     },
     {
       "rank": 5,
@@ -5471,19 +5471,6 @@
     },
     {
       "rank": 22,
-      "id": "68d612211b7b720e58adef80",
-      "name": "הפועל טירת כרמל צו פיוס",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
-      "gf": 1,
-      "ga": 10,
-      "gd": -9,
-      "points": 0
-    },
-    {
-      "rank": 23,
       "id": "6ab9c8e2068ef07a1cafbc1d",
       "name": "בית''ר חיפה יעקב 2",
       "games": 2,
@@ -5493,6 +5480,19 @@
       "gf": 0,
       "ga": 11,
       "gd": -11,
+      "points": 0
+    },
+    {
+      "rank": 23,
+      "id": "68d612211b7b720e58adef80",
+      "name": "הפועל טירת כרמל צו פיוס",
+      "games": 3,
+      "wins": 0,
+      "draws": 0,
+      "losses": 3,
+      "gf": 1,
+      "ga": 13,
+      "gd": -12,
       "points": 0
     },
     {
