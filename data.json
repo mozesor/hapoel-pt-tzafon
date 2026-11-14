@@ -1,17 +1,17 @@
 {
   "rankChange": {
-    "from": 8,
-    "to": 5,
+    "from": 5,
+    "to": 6,
     "points": 9,
     "round": 4,
-    "at": "2026-11-13T15:23:27.042Z"
+    "at": "2026-11-14T14:03:23.164Z"
   },
   "league": {
     "id": 1286,
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 2
   },
-  "fetchedAt": "2026-11-14T03:07:56.526Z",
+  "fetchedAt": "2026-11-14T14:03:23.164Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -742,54 +742,54 @@
       "id": "6acc334e9878872a963a051f",
       "date": "2026-11-14T06:30:00.000Z",
       "round": 4,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68e09ea61b7b720e58c00d4c",
         "pid": 2964,
         "name": "הפועל הוד השרון",
-        "goals": null
+        "goals": 0
       },
       "away": {
         "id": "68d612211b7b720e58adeead",
         "pid": 5167,
         "name": "הפועל תא צפון",
-        "goals": null
+        "goals": 2
       }
     },
     {
       "id": "6acc334e9878872a963a051a",
       "date": "2026-11-14T07:30:00.000Z",
       "round": 4,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68d612211b7b720e58adef52",
         "pid": 1107,
         "name": "מכבי עמק חפר",
-        "goals": null
+        "goals": 5
       },
       "away": {
         "id": "68d612211b7b720e58adeecb",
         "pid": 5500,
         "name": "הפועל חוף הכרמל / ממ",
-        "goals": null
+        "goals": 0
       }
     },
     {
       "id": "6acc334e9878872a963a04f4",
       "date": "2026-11-14T09:00:00.000Z",
       "round": 2,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68d612211b7b720e58adef1d",
         "pid": 5665,
         "name": "הפועל חדרה",
-        "goals": null
+        "goals": 1
       },
       "away": {
         "id": "68d612211b7b720e58adeebd",
         "pid": 1908,
         "name": "מכבי תא לייבו",
-        "goals": null
+        "goals": 8
       }
     },
     {
@@ -5198,6 +5198,19 @@
   "standings": [
     {
       "rank": 1,
+      "id": "68d612211b7b720e58adeebd",
+      "name": "מכבי תא לייבו",
+      "games": 4,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "gf": 22,
+      "ga": 6,
+      "gd": 16,
+      "points": 12
+    },
+    {
+      "rank": 2,
       "id": "68d612211b7b720e58adeea1",
       "name": "ביתר טוברוק",
       "games": 4,
@@ -5210,7 +5223,7 @@
       "points": 10
     },
     {
-      "rank": 2,
+      "rank": 3,
       "id": "68d612211b7b720e58adef04",
       "name": "הפועל הרצליה עירוני צו פיוס",
       "games": 3,
@@ -5223,7 +5236,7 @@
       "points": 9
     },
     {
-      "rank": 3,
+      "rank": 4,
       "id": "68e09ea61b7b720e58c00d4e",
       "name": "מ.כ. נוה יוסף חיים בוטון",
       "games": 4,
@@ -5236,20 +5249,20 @@
       "points": 9
     },
     {
-      "rank": 4,
-      "id": "68d612211b7b720e58adeebd",
-      "name": "מכבי תא לייבו",
+      "rank": 5,
+      "id": "68d612211b7b720e58adeead",
+      "name": "הפועל תא צפון",
       "games": 3,
       "wins": 3,
       "draws": 0,
       "losses": 0,
       "gf": 14,
-      "ga": 5,
-      "gd": 9,
+      "ga": 2,
+      "gd": 12,
       "points": 9
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": "68d612211b7b720e58adee8d",
       "name": "הפ' פתח תקווה צפון",
       "games": 3,
@@ -5260,19 +5273,6 @@
       "ga": 2,
       "gd": 8,
       "points": 9
-    },
-    {
-      "rank": 6,
-      "id": "68d612211b7b720e58adeead",
-      "name": "הפועל תא צפון",
-      "games": 2,
-      "wins": 2,
-      "draws": 0,
-      "losses": 0,
-      "gf": 12,
-      "ga": 2,
-      "gd": 10,
-      "points": 6
     },
     {
       "rank": 7,
@@ -5291,13 +5291,13 @@
       "rank": 8,
       "id": "68d612211b7b720e58adeecb",
       "name": "הפועל חוף הכרמל / ממ",
-      "games": 2,
+      "games": 3,
       "wins": 2,
       "draws": 0,
-      "losses": 0,
+      "losses": 1,
       "gf": 7,
-      "ga": 1,
-      "gd": 6,
+      "ga": 6,
+      "gd": 1,
       "points": 6
     },
     {
@@ -5367,6 +5367,19 @@
     },
     {
       "rank": 14,
+      "id": "68d612211b7b720e58adef52",
+      "name": "מכבי עמק חפר",
+      "games": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "gf": 6,
+      "ga": 7,
+      "gd": -1,
+      "points": 3
+    },
+    {
+      "rank": 15,
       "id": "68d612211b7b720e58adef76",
       "name": "מ.ס. עמק חפר דרום צו פיוס",
       "games": 2,
@@ -5379,7 +5392,7 @@
       "points": 3
     },
     {
-      "rank": 15,
+      "rank": 16,
       "id": "68d612211b7b720e58adef49",
       "name": "פרו סוקר השרון",
       "games": 3,
@@ -5392,30 +5405,17 @@
       "points": 2
     },
     {
-      "rank": 16,
+      "rank": 17,
       "id": "68e09ea61b7b720e58c00d4c",
       "name": "הפועל הוד השרון",
-      "games": 3,
+      "games": 4,
       "wins": 0,
       "draws": 2,
-      "losses": 1,
+      "losses": 2,
       "gf": 3,
-      "ga": 7,
-      "gd": -4,
+      "ga": 9,
+      "gd": -6,
       "points": 2
-    },
-    {
-      "rank": 17,
-      "id": "68d612211b7b720e58adef1d",
-      "name": "הפועל חדרה",
-      "games": 2,
-      "wins": 0,
-      "draws": 1,
-      "losses": 1,
-      "gf": 3,
-      "ga": 4,
-      "gd": -1,
-      "points": 1
     },
     {
       "rank": 18,
@@ -5432,6 +5432,19 @@
     },
     {
       "rank": 19,
+      "id": "68d612211b7b720e58adef1d",
+      "name": "הפועל חדרה",
+      "games": 3,
+      "wins": 0,
+      "draws": 1,
+      "losses": 2,
+      "gf": 4,
+      "ga": 12,
+      "gd": -8,
+      "points": 1
+    },
+    {
+      "rank": 20,
       "id": "68e09ea81b7b720e58c00f04",
       "name": "הפועל עליה כפס צו פיוס",
       "games": 4,
@@ -5444,7 +5457,7 @@
       "points": 1
     },
     {
-      "rank": 20,
+      "rank": 21,
       "id": "68d612211b7b720e58adeed5",
       "name": "מכבי ע. כפר יונה צו פיוס",
       "games": 2,
@@ -5454,19 +5467,6 @@
       "gf": 4,
       "ga": 9,
       "gd": -5,
-      "points": 0
-    },
-    {
-      "rank": 21,
-      "id": "68d612211b7b720e58adef52",
-      "name": "מכבי עמק חפר",
-      "games": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
-      "gf": 1,
-      "ga": 7,
-      "gd": -6,
       "points": 0
     },
     {
