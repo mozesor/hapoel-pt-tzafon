@@ -12,3 +12,7 @@ id = "19c4238f2cbe431a896b218240c21772"
 ALLOWED_ORIGIN = "https://mozesor.github.io"
 VAPID_SUBJECT = "mailto:mozesor@gmail.com"
 SITE_URL = "https://mozesor.github.io/hapoel-pt-tzafon/"
+
+# 20/11/2026: drains the delivery queue (at most 40 pushes per run, free-plan subrequest limit)
+[triggers]
+crons = ["*/10 * * * *"]
