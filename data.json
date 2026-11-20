@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 1
   },
-  "fetchedAt": "2026-11-20T13:53:30.413Z",
+  "fetchedAt": "2026-11-20T16:35:31.087Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -8877,8 +8877,7 @@
           "pid": 2336,
           "name": "הפועל חיפה 1",
           "goals": 7
-        },
-        "unofficial": true
+        }
       },
       {
         "id": "6ae2ab78e10656c9d244d220",
