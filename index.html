@@ -614,7 +614,7 @@ function computeTable(maxRound=Infinity){
     h.games++;a.games++;h.gf+=g.home.goals;h.ga+=g.away.goals;a.gf+=g.away.goals;a.ga+=g.home.goals;
     if(g.home.goals>g.away.goals){h.wins++;a.losses++;h.points+=3;} else if(g.home.goals<g.away.goals){a.wins++;h.losses++;a.points+=3;} else {h.draws++;a.draws++;h.points++;a.points++;} }
   const arr=[...t.values()].map(x=>({...x,gd:x.gf-x.ga}));
-  arr.sort((a,b)=>b.points-a.points||b.hp-a.gd||b.gf-a.gf||a.name.localeCompare(b.name,"he")); arr.forEach((x,i)=>x.rank=i+1); return arr;
+  arr.sort((a,b)=>b.points-a.points||b.gd-a.gd||b.gf-a.gf||a.name.localeCompare(b.name,"he")); arr.forEach((x,i)=>x.rank=i+1); return arr;
 }
 const lastPlayedRound=()=>Math.max(0,...DATA.games.filter(played).map(g=>g.round));
 // only plain https links ever become buttons (blocks javascript: and data: links)
