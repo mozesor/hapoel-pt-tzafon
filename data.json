@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 4
   },
-  "fetchedAt": "2026-11-22T12:13:28.261Z",
+  "fetchedAt": "2026-11-22T12:23:28.691Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -978,24 +978,6 @@
       }
     },
     {
-      "id": "6acc334e9878872a963a052e",
-      "date": "2026-11-27T22:00:00.000Z",
-      "round": 5,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adeead",
-        "pid": 5167,
-        "name": "הפועל תא צפון",
-        "goals": null
-      },
-      "away": {
-        "id": "68d612211b7b720e58adef1d",
-        "pid": 5665,
-        "name": "הפועל חדרה",
-        "goals": null
-      }
-    },
-    {
       "id": "6acc334e9878872a963a0531",
       "date": "2026-11-27T22:00:00.000Z",
       "round": 5,
@@ -1127,8 +1109,26 @@
       }
     },
     {
+      "id": "6acc334e9878872a963a052e",
+      "date": "2026-11-28T06:30:00.000Z",
+      "round": 5,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adeead",
+        "pid": 5167,
+        "name": "הפועל תא צפון",
+        "goals": null
+      },
+      "away": {
+        "id": "68d612211b7b720e58adef1d",
+        "pid": 5665,
+        "name": "הפועל חדרה",
+        "goals": null
+      }
+    },
+    {
       "id": "6acc334e9878872a963a053c",
-      "date": "2026-11-27T22:00:00.000Z",
+      "date": "2026-11-28T06:30:00.000Z",
       "round": 5,
       "finished": false,
       "home": {
