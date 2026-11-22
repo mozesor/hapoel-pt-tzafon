@@ -11,7 +11,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 4
   },
-  "fetchedAt": "2026-11-22T16:35:30.261Z",
+  "fetchedAt": "2026-11-22T18:08:25.074Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -8927,13 +8927,14 @@
         "home": {
           "pid": 2964,
           "name": "הפועל הוד השרון",
-          "goals": null
+          "goals": 5
         },
         "away": {
           "pid": 1477,
           "name": "אגודת ספורט נורדיה ירושלים צו פיוס",
-          "goals": null
-        }
+          "goals": 2
+        },
+        "unofficial": true
       }
     ]
   }
