@@ -9,9 +9,9 @@
   "league": {
     "id": 1286,
     "name": "ליגת ילדים ג' שרון",
-    "currentRound": 4
+    "currentRound": 2
   },
-  "fetchedAt": "2026-11-22T19:35:36.222Z",
+  "fetchedAt": "2026-11-23T03:04:23.023Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -978,24 +978,6 @@
       }
     },
     {
-      "id": "6acc334e9878872a963a0531",
-      "date": "2026-11-27T22:00:00.000Z",
-      "round": 5,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adef04",
-        "pid": 5745,
-        "name": "הפועל הרצליה עירוני צו פיוס",
-        "goals": null
-      },
-      "away": {
-        "id": "68e09ea61b7b720e58c00d4c",
-        "pid": 2964,
-        "name": "הפועל הוד השרון",
-        "goals": null
-      }
-    },
-    {
       "id": "6acc334e9878872a963a0532",
       "date": "2026-11-27T22:00:00.000Z",
       "round": 5,
@@ -1141,6 +1123,24 @@
         "id": "6ab9c8e2068ef07a1cafbc1d",
         "pid": 8097,
         "name": "בית''ר חיפה יעקב 2",
+        "goals": null
+      }
+    },
+    {
+      "id": "6acc334e9878872a963a0531",
+      "date": "2026-11-28T17:30:00.000Z",
+      "round": 5,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adef04",
+        "pid": 5745,
+        "name": "הפועל הרצליה עירוני צו פיוס",
+        "goals": null
+      },
+      "away": {
+        "id": "68e09ea61b7b720e58c00d4c",
+        "pid": 2964,
+        "name": "הפועל הוד השרון",
         "goals": null
       }
     },
