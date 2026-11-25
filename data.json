@@ -14,9 +14,9 @@
   "league": {
     "id": 1286,
     "name": "ליגת ילדים ג' שרון",
-    "currentRound": 2
+    "currentRound": 5
   },
-  "fetchedAt": "2026-11-24T15:00:58.582Z",
+  "fetchedAt": "2026-11-25T04:06:58.547Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -947,42 +947,6 @@
       }
     },
     {
-      "id": "6acc334e9878872a963a0528",
-      "date": "2026-11-27T22:00:00.000Z",
-      "round": 5,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adeebd",
-        "pid": 1908,
-        "name": "מכבי תא לייבו",
-        "goals": null
-      },
-      "away": {
-        "id": "68d612211b7b720e58adef47",
-        "pid": 7461,
-        "name": "מכבי ע. קרית אתא צו פיוס",
-        "goals": null
-      }
-    },
-    {
-      "id": "6acc334e9878872a963a0533",
-      "date": "2026-11-27T22:00:00.000Z",
-      "round": 5,
-      "finished": false,
-      "home": {
-        "id": "68d612211b7b720e58adeecb",
-        "pid": 5500,
-        "name": "הפועל חוף הכרמל / ממ",
-        "goals": null
-      },
-      "away": {
-        "id": "68d612211b7b720e58adef20",
-        "pid": 3679,
-        "name": "מכבי עתלית צו פיוס",
-        "goals": null
-      }
-    },
-    {
       "id": "6acc334e9878872a963a0535",
       "date": "2026-11-27T22:00:00.000Z",
       "round": 5,
@@ -1146,6 +1110,24 @@
         "id": "68d612211b7b720e58adef80",
         "pid": 7101,
         "name": "הפועל טירת כרמל צו פיוס",
+        "goals": null
+      }
+    },
+    {
+      "id": "6acc334e9878872a963a0528",
+      "date": "2026-12-01T17:15:00.000Z",
+      "round": 5,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adeebd",
+        "pid": 1908,
+        "name": "מכבי תא לייבו",
+        "goals": null
+      },
+      "away": {
+        "id": "68d612211b7b720e58adef47",
+        "pid": 7461,
+        "name": "מכבי ע. קרית אתא צו פיוס",
         "goals": null
       }
     },
@@ -1385,6 +1367,24 @@
         "id": "68d612211b7b720e58adef76",
         "pid": 3685,
         "name": "מ.ס. עמק חפר דרום צו פיוס",
+        "goals": null
+      }
+    },
+    {
+      "id": "6acc334e9878872a963a0533",
+      "date": "2026-12-06T13:00:00.000Z",
+      "round": 5,
+      "finished": false,
+      "home": {
+        "id": "68d612211b7b720e58adeecb",
+        "pid": 5500,
+        "name": "הפועל חוף הכרמל / ממ",
+        "goals": null
+      },
+      "away": {
+        "id": "68d612211b7b720e58adef20",
+        "pid": 3679,
+        "name": "מכבי עתלית צו פיוס",
         "goals": null
       }
     },
