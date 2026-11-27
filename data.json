@@ -16,7 +16,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 5
   },
-  "fetchedAt": "2026-11-26T05:03:31.161Z",
+  "fetchedAt": "2026-11-27T15:33:24.941Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -950,18 +950,18 @@
       "id": "6acc334e9878872a963a0538",
       "date": "2026-11-27T12:15:00.000Z",
       "round": 5,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68e09ea61b7b720e58c00d4e",
         "pid": 4213,
         "name": "מ.כ. נוה יוסף חיים בוטון",
-        "goals": null
+        "goals": 5
       },
       "away": {
         "id": "68d612211b7b720e58adeed5",
         "pid": 5130,
         "name": "מכבי ע. כפר יונה צו פיוס",
-        "goals": null
+        "goals": 0
       }
     },
     {
@@ -5203,6 +5203,19 @@
   "standings": [
     {
       "rank": 1,
+      "id": "68e09ea61b7b720e58c00d4e",
+      "name": "מ.כ. נוה יוסף חיים בוטון",
+      "games": 5,
+      "wins": 4,
+      "draws": 0,
+      "losses": 1,
+      "gf": 26,
+      "ga": 8,
+      "gd": 18,
+      "points": 12
+    },
+    {
+      "rank": 2,
       "id": "68d612211b7b720e58adeebd",
       "name": "מכבי תא לייבו",
       "games": 4,
@@ -5215,7 +5228,7 @@
       "points": 12
     },
     {
-      "rank": 2,
+      "rank": 3,
       "id": "68d612211b7b720e58adeead",
       "name": "הפועל תא צפון",
       "games": 4,
@@ -5228,7 +5241,7 @@
       "points": 12
     },
     {
-      "rank": 3,
+      "rank": 4,
       "id": "68d612211b7b720e58adeea1",
       "name": "ביתר טוברוק",
       "games": 4,
@@ -5241,7 +5254,7 @@
       "points": 10
     },
     {
-      "rank": 4,
+      "rank": 5,
       "id": "68d612211b7b720e58adef04",
       "name": "הפועל הרצליה עירוני צו פיוס",
       "games": 3,
@@ -5251,19 +5264,6 @@
       "gf": 18,
       "ga": 1,
       "gd": 17,
-      "points": 9
-    },
-    {
-      "rank": 5,
-      "id": "68e09ea61b7b720e58c00d4e",
-      "name": "מ.כ. נוה יוסף חיים בוטון",
-      "games": 4,
-      "wins": 3,
-      "draws": 0,
-      "losses": 1,
-      "gf": 21,
-      "ga": 8,
-      "gd": 13,
       "points": 9
     },
     {
@@ -5478,13 +5478,13 @@
       "rank": 22,
       "id": "68d612211b7b720e58adeed5",
       "name": "מכבי ע. כפר יונה צו פיוס",
-      "games": 3,
+      "games": 4,
       "wins": 0,
       "draws": 0,
-      "losses": 3,
+      "losses": 4,
       "gf": 7,
-      "ga": 13,
-      "gd": -6,
+      "ga": 18,
+      "gd": -11,
       "points": 0
     },
     {
