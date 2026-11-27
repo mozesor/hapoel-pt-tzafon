@@ -16,7 +16,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 5
   },
-  "fetchedAt": "2026-11-27T15:43:25.809Z",
+  "fetchedAt": "2026-11-27T15:48:22.528Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -932,18 +932,18 @@
       "id": "6acc334e9878872a963a0535",
       "date": "2026-11-27T12:00:00.000Z",
       "round": 5,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68d612211b7b720e58adeea1",
         "pid": 3019,
         "name": "ביתר טוברוק",
-        "goals": null
+        "goals": 0
       },
       "away": {
         "id": "68d612211b7b720e58adef52",
         "pid": 1107,
         "name": "מכבי עמק חפר",
-        "goals": null
+        "goals": 7
       }
     },
     {
