@@ -16,7 +16,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 5
   },
-  "fetchedAt": "2026-11-28T08:38:24.958Z",
+  "fetchedAt": "2026-11-28T10:43:25.756Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -968,18 +968,18 @@
       "id": "6acc334e9878872a963a052e",
       "date": "2026-11-28T06:30:00.000Z",
       "round": 5,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68d612211b7b720e58adeead",
         "pid": 5167,
         "name": "הפועל תא צפון",
-        "goals": null
+        "goals": 5
       },
       "away": {
         "id": "68d612211b7b720e58adef1d",
         "pid": 5665,
         "name": "הפועל חדרה",
-        "goals": null
+        "goals": 0
       }
     },
     {
@@ -5203,6 +5203,19 @@
   "standings": [
     {
       "rank": 1,
+      "id": "68d612211b7b720e58adeead",
+      "name": "הפועל תא צפון",
+      "games": 5,
+      "wins": 5,
+      "draws": 0,
+      "losses": 0,
+      "gf": 22,
+      "ga": 4,
+      "gd": 18,
+      "points": 15
+    },
+    {
+      "rank": 2,
       "id": "68e09ea61b7b720e58c00d4e",
       "name": "מ.כ. נוה יוסף חיים בוטון",
       "games": 5,
@@ -5215,7 +5228,7 @@
       "points": 12
     },
     {
-      "rank": 2,
+      "rank": 3,
       "id": "68d612211b7b720e58adeebd",
       "name": "מכבי תא לייבו",
       "games": 4,
@@ -5225,19 +5238,6 @@
       "gf": 22,
       "ga": 6,
       "gd": 16,
-      "points": 12
-    },
-    {
-      "rank": 3,
-      "id": "68d612211b7b720e58adeead",
-      "name": "הפועל תא צפון",
-      "games": 4,
-      "wins": 4,
-      "draws": 0,
-      "losses": 0,
-      "gf": 17,
-      "ga": 4,
-      "gd": 13,
       "points": 12
     },
     {
@@ -5465,13 +5465,13 @@
       "rank": 21,
       "id": "68d612211b7b720e58adef1d",
       "name": "הפועל חדרה",
-      "games": 4,
+      "games": 5,
       "wins": 0,
       "draws": 1,
-      "losses": 3,
+      "losses": 4,
       "gf": 4,
-      "ga": 17,
-      "gd": -13,
+      "ga": 22,
+      "gd": -18,
       "points": 1
     },
     {
