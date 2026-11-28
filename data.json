@@ -16,7 +16,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 5
   },
-  "fetchedAt": "2026-11-28T14:48:23.219Z",
+  "fetchedAt": "2026-11-28T14:53:23.269Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -1004,18 +1004,18 @@
       "id": "6acc334e9878872a963a0532",
       "date": "2026-11-28T12:30:00.000Z",
       "round": 5,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68d612211b7b720e58adee8d",
         "pid": 6174,
         "name": "הפ' פתח תקווה צפון",
-        "goals": null
+        "goals": 3
       },
       "away": {
         "id": "68d612211b7b720e58adee6c",
         "pid": 1264,
         "name": "מכבי הרצליה",
-        "goals": null
+        "goals": 3
       },
       "ifa": {
         "date": "2026-11-28",
