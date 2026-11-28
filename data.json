@@ -16,7 +16,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 5
   },
-  "fetchedAt": "2026-11-27T15:48:22.528Z",
+  "fetchedAt": "2026-11-28T08:33:27.681Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -986,18 +986,18 @@
       "id": "6acc334e9878872a963a053c",
       "date": "2026-11-28T06:30:00.000Z",
       "round": 5,
-      "finished": false,
+      "finished": true,
       "home": {
         "id": "68e09ea61b7b720e58c00d55",
         "pid": 2336,
         "name": "הפועל חיפה 1",
-        "goals": null
+        "goals": 10
       },
       "away": {
         "id": "6ab9c8e2068ef07a1cafbc1d",
         "pid": 8097,
         "name": "בית''ר חיפה יעקב 2",
-        "goals": null
+        "goals": 1
       }
     },
     {
