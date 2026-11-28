@@ -1,10 +1,10 @@
 {
   "rankChange": {
-    "from": 6,
-    "to": 7,
-    "points": 9,
+    "from": 7,
+    "to": 4,
+    "points": 10,
     "round": 5,
-    "at": "2026-11-28T08:38:24.958Z"
+    "at": "2026-11-28T14:48:23.219Z"
   },
   "me": {
     "id": "68d612211b7b720e58adee8d",
@@ -16,7 +16,7 @@
     "name": "ליגת ילדים ג' שרון",
     "currentRound": 5
   },
-  "fetchedAt": "2026-11-28T11:08:23.656Z",
+  "fetchedAt": "2026-11-28T14:48:23.219Z",
   "teams": [
     {
       "id": "68d612211b7b720e58adef04",
@@ -5242,6 +5242,19 @@
     },
     {
       "rank": 4,
+      "id": "68d612211b7b720e58adee8d",
+      "name": "הפ' פתח תקווה צפון",
+      "games": 5,
+      "wins": 3,
+      "draws": 1,
+      "losses": 1,
+      "gf": 14,
+      "ga": 7,
+      "gd": 7,
+      "points": 10
+    },
+    {
+      "rank": 5,
       "id": "68d612211b7b720e58adeea1",
       "name": "ביתר טוברוק",
       "games": 5,
@@ -5254,7 +5267,7 @@
       "points": 10
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": "68d612211b7b720e58adef04",
       "name": "הפועל הרצליה עירוני צו פיוס",
       "games": 3,
@@ -5267,7 +5280,7 @@
       "points": 9
     },
     {
-      "rank": 6,
+      "rank": 7,
       "id": "68e09ea61b7b720e58c00d55",
       "name": "הפועל חיפה 1",
       "games": 4,
@@ -5277,19 +5290,6 @@
       "gf": 26,
       "ga": 10,
       "gd": 16,
-      "points": 9
-    },
-    {
-      "rank": 7,
-      "id": "68d612211b7b720e58adee8d",
-      "name": "הפ' פתח תקווה צפון",
-      "games": 4,
-      "wins": 3,
-      "draws": 0,
-      "losses": 1,
-      "gf": 11,
-      "ga": 4,
-      "gd": 7,
       "points": 9
     },
     {
@@ -5387,14 +5387,14 @@
       "rank": 15,
       "id": "68d612211b7b720e58adee6c",
       "name": "מכבי הרצליה",
-      "games": 3,
+      "games": 4,
       "wins": 1,
-      "draws": 1,
+      "draws": 2,
       "losses": 1,
-      "gf": 7,
-      "ga": 8,
+      "gf": 10,
+      "ga": 11,
       "gd": -1,
-      "points": 4
+      "points": 5
     },
     {
       "rank": 16,
